@@ -1,0 +1,19 @@
+
+#header{
+    height: 10vh;
+    background: gray;
+}
+
+#graphic{
+    height: 50vh;
+    background: red;
+}
+
+#selector{
+    height: 40vh;
+    background: blue;
+}
+
+.ui-datepicker-calendar {
+    display: none;
+}
