@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get 'about'  => 'home#about',  as: :about
-  get 'search' => 'home#search', as: :search
-  
+  get 'search' => 'home#search2', as: :search
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

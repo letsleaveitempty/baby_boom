@@ -9,4 +9,7 @@ class HomeController < ApplicationController
   def about
   end
 
+  def search2
+  end
+
 end
