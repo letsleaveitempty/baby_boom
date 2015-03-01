@@ -61,4 +61,21 @@ $(function() {
             data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
         }]
     });
+
+    var map;
+    var grancanaria = new google.maps.LatLng(33.211116,-12.832031);
+    var mapOptions = {
+        zoom: 4,
+        center: grancanaria,
+        mapTypeControl: true,
+        zoomControl: false,
+        panControl: false,
+        MapType: true,
+        streetViewControl: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+
 });

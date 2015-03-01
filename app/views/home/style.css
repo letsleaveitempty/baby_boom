@@ -11,7 +11,10 @@
 
 #selector{
     height: 40vh;
-    background: blue;
+}
+
+#map-container{
+    height: 40vh;
 }
 
 .ui-datepicker-calendar {
