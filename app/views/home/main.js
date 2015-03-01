@@ -17,11 +17,11 @@ $(function() {
 
     $('#container').highcharts({
         title: {
-            text: 'Monthly Average Temperature',
+            text: 'Monthly Average Birth',
             x: -20 //center
         },
         subtitle: {
-            text: 'Source: WorldClimate.com',
+            text: 'Source: open.api.com',
             x: -20
         },
         xAxis: {
@@ -30,7 +30,7 @@ $(function() {
         },
         yAxis: {
             title: {
-                text: 'Temperature (°C)'
+                text: 'Borns per thousand'
             },
             plotLines: [{
                 value: 0,
