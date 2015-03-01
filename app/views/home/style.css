@@ -1,17 +1,18 @@
 
 #header{
     height: 10vh;
-    background: gray;
 }
 
 #graphic{
     height: 50vh;
-    background: red;
 }
 
 #selector{
     height: 40vh;
-    background: blue;
+}
+
+#map-container{
+    height: 40vh;
 }
 
 .ui-datepicker-calendar {
